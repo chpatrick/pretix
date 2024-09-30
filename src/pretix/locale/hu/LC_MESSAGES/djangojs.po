@@ -426,7 +426,7 @@ msgid ""
 "than one minute, please check your internet connection and then reload this "
 "page and try again."
 msgstr ""
-"A kérelem továbbítása a kiszolgáló felé folyamatban. Ha ez egy percnél "
+"A kérelem továbbítása a kiszolgáló felé folyamatban van. Ha ez egy percnél "
 "hosszabb időt vesz igénybe, kérjük ellenőrizze az internetkapcsolatát, "
 "frissítse az oldalt és próbálkozzon újra."
 

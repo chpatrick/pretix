@@ -656,14 +656,14 @@ msgstr ""
 
 #: pretix/base/context.py:52
 #, python-format
-msgid "<a %(a_attr)s>ticketing powered by pretix</a>"
+msgid "<a %(a_attr)s>pretix jegyfoglaló rendszer</a>"
 msgstr ""
 
 #: pretix/base/context.py:61
 #, fuzzy
 #| msgid "Ticket design"
 msgid "source code"
-msgstr "Jegy design"
+msgstr "forráskód"
 
 #: pretix/base/customersso/oidc.py:59
 #, python-brace-format
@@ -890,7 +890,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/organizers/customer_profile.html:29
 #: pretix/presale/templates/pretixpresale/organizers/index.html:41
 msgid "Name"
-msgstr ""
+msgstr "Név"
 
 #: pretix/base/exporters/customers.py:77 pretix/base/models/customers.py:99
 #, fuzzy
@@ -1280,7 +1280,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/order.html:315
 #: pretix/presale/templates/pretixpresale/organizers/customer_profile.html:189
 msgid "Address"
-msgstr ""
+msgstr "Cím"
 
 #: pretix/base/exporters/invoices.py:208 pretix/base/exporters/invoices.py:216
 #: pretix/base/exporters/invoices.py:334 pretix/base/exporters/invoices.py:342
@@ -1295,7 +1295,7 @@ msgstr ""
 #: pretix/plugins/checkinlists/exporters.py:520
 #: pretix/plugins/reports/exporters.py:841
 msgid "ZIP code"
-msgstr ""
+msgstr "Irányítószám"
 
 #: pretix/base/exporters/invoices.py:209 pretix/base/exporters/invoices.py:217
 #: pretix/base/exporters/invoices.py:335 pretix/base/exporters/invoices.py:343
@@ -1310,7 +1310,7 @@ msgstr ""
 #: pretix/plugins/checkinlists/exporters.py:521
 #: pretix/plugins/reports/exporters.py:842
 msgid "City"
-msgstr ""
+msgstr "Város"
 
 #: pretix/base/exporters/invoices.py:210 pretix/base/exporters/invoices.py:218
 #: pretix/base/exporters/invoices.py:336 pretix/base/exporters/invoices.py:344
@@ -1331,11 +1331,11 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:96
 #: pretix/presale/templates/pretixpresale/event/order.html:319
 msgid "Country"
-msgstr ""
+msgstr "Ország"
 
 #: pretix/base/exporters/invoices.py:211 pretix/base/exporters/invoices.py:337
 msgid "Tax ID"
-msgstr ""
+msgstr "Adószám"
 
 #: pretix/base/exporters/invoices.py:212 pretix/base/exporters/invoices.py:220
 #: pretix/base/exporters/invoices.py:338 pretix/base/exporters/invoices.py:346
@@ -1379,11 +1379,11 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:87
 #: pretix/presale/templates/pretixpresale/event/order.html:307
 msgid "Company"
-msgstr ""
+msgstr "Cég"
 
 #: pretix/base/exporters/invoices.py:215 pretix/base/exporters/invoices.py:341
 msgid "Street address"
-msgstr ""
+msgstr "Cím"
 
 #: pretix/base/exporters/invoices.py:219 pretix/base/exporters/invoices.py:345
 #: pretix/base/exporters/orderlist.py:268
@@ -1399,7 +1399,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/order.html:322
 msgctxt "address"
 msgid "State"
-msgstr ""
+msgstr "Állam"
 
 #: pretix/base/exporters/invoices.py:221 pretix/base/exporters/invoices.py:347
 #: pretix/base/models/orders.py:3111 pretix/base/models/orders.py:3146
@@ -1412,7 +1412,7 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/order/index.html:986
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:115
 msgid "Internal reference"
-msgstr ""
+msgstr "Közlemény"
 
 #: pretix/base/exporters/invoices.py:223 pretix/control/forms/event.py:1487
 msgid "Reverse charge"
@@ -3090,7 +3090,7 @@ msgstr ""
 
 #: pretix/base/forms/widgets.py:237
 msgid "Individual customer"
-msgstr ""
+msgstr "Magánszemély"
 
 #: pretix/base/invoice.py:86
 #, python-format
@@ -5642,11 +5642,11 @@ msgstr ""
 
 #: pretix/base/models/orders.py:3091
 msgid "Business customer"
-msgstr ""
+msgstr "Cég"
 
 #: pretix/base/models/orders.py:3107
 msgid "This reference will be printed on your invoice for your convenience."
-msgstr ""
+msgstr "Ez a közlemény fel lesz tüntetve a számlán."
 
 #: pretix/base/models/organizer.py:77
 msgid ""
@@ -10139,7 +10139,9 @@ msgstr ""
 msgid ""
 "Make sure to enter a valid email address. We will send you an order "
 "confirmation including a link that you need to access your order later."
-msgstr ""
+msgstr
+"Helyes email címet adj meg! Ide fogjuk küldeni a visszaigazolást"
+"és a linket amivel el tudod érni késöbb a foglalásodat."
 
 #: pretix/base/settings.py:3094
 msgid "Help text of the email field"
@@ -15239,7 +15241,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/order_pay_change.html:67
 #: pretix/presale/templates/pretixpresale/event/position_change.html:29
 msgid "Continue"
-msgstr ""
+msgstr "Folytatás"
 
 #: pretix/control/templates/pretixcontrol/auth/oauth_authorization.html:8
 msgid "Authorize an application"
@@ -18756,7 +18758,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/order.html:478
 #: pretix/presale/templates/pretixpresale/event/order_cancel.html:7
 msgid "Cancel order"
-msgstr ""
+msgstr "Foglalás lemondása"
 
 #: pretix/control/templates/pretixcontrol/order/cancel.html:12
 #: pretix/control/templates/pretixcontrol/order/deny.html:11
@@ -18990,13 +18992,13 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/checkout_questions.html:39
 #: pretix/presale/templates/pretixpresale/event/order_modify.html:29
 msgid "Invoice information"
-msgstr ""
+msgstr "Számlaadatok"
 
 #: pretix/control/templates/pretixcontrol/order/change_questions.html:26
 #: pretix/presale/templates/pretixpresale/event/checkout_questions.html:40
 #: pretix/presale/templates/pretixpresale/event/order_modify.html:30
 msgid "(optional)"
-msgstr ""
+msgstr "(nem kötelező)"
 
 #: pretix/control/templates/pretixcontrol/order/delete.html:4
 #: pretix/control/templates/pretixcontrol/order/delete.html:8
@@ -19152,7 +19154,7 @@ msgstr ""
 
 #: pretix/control/templates/pretixcontrol/order/index.html:229
 msgid "Contact email"
-msgstr ""
+msgstr "E-mail cím"
 
 #: pretix/control/templates/pretixcontrol/order/index.html:233
 msgid ""
@@ -19219,7 +19221,7 @@ msgstr ""
 #: pretix/control/templates/pretixcontrol/order/index.html:369
 #: pretix/presale/templates/pretixpresale/event/order.html:196
 msgid "Ordered items"
-msgstr ""
+msgstr "Foglalt tételek"
 
 #: pretix/control/templates/pretixcontrol/order/index.html:388
 #, python-format
@@ -19320,7 +19322,7 @@ msgstr ""
 #: pretix/plugins/reports/exporters.py:957
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:449
 msgid "Total"
-msgstr "Teljes"
+msgstr "Összeg"
 
 #: pretix/control/templates/pretixcontrol/order/index.html:712
 #: pretix/presale/templates/pretixpresale/event/order.html:209
@@ -27783,11 +27785,11 @@ msgstr ""
 
 #: pretix/plugins/ticketoutputpdf/ticketoutput.py:65
 msgid "Download tickets (PDF)"
-msgstr ""
+msgstr "Jegyek letöltése (PDF)"
 
 #: pretix/plugins/ticketoutputpdf/ticketoutput.py:66
 msgid "Download ticket (PDF)"
-msgstr ""
+msgstr "Jegy letöltése (PDF)"
 
 #: pretix/plugins/ticketoutputpdf/views.py:62
 msgid "Default ticket layout"
@@ -27924,7 +27926,7 @@ msgstr ""
 #: pretix/presale/checkoutflow.py:1424
 msgctxt "checkoutflow"
 msgid "Review order"
-msgstr ""
+msgstr "Foglalás áttekintése"
 
 #: pretix/presale/checkoutflow.py:1518
 msgid "You need to check all checkboxes on the bottom of the page."
@@ -28219,7 +28221,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/organizers/customer_address_delete.html:21
 #: pretix/presale/templates/pretixpresale/organizers/customer_profile_delete.html:21
 msgid "Go back"
-msgstr ""
+msgstr "Vissza"
 
 #: pretix/presale/templates/pretixpresale/event/checkout_base.html:7
 #, python-format
@@ -28230,7 +28232,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/checkout_base.html:52
 #: pretix/presale/templates/pretixpresale/event/checkout_base.html:53
 msgid "Checkout"
-msgstr ""
+msgstr "Véglegesítés"
 
 #: pretix/presale/templates/pretixpresale/event/checkout_base.html:15
 #: pretix/presale/templates/pretixpresale/event/checkout_base.html:21
@@ -28238,7 +28240,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:8
 #: pretix/presale/templates/pretixpresale/event/fragment_cart_box.html:11
 msgid "Your cart"
-msgstr ""
+msgstr "Kosár"
 
 #: pretix/presale/templates/pretixpresale/event/checkout_base.html:28
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:30
@@ -28248,12 +28250,12 @@ msgstr "A kosár lejárt"
 
 #: pretix/presale/templates/pretixpresale/event/checkout_base.html:36
 msgid "Show full cart"
-msgstr ""
+msgstr "Kosár megjelenítése"
 
 #: pretix/presale/templates/pretixpresale/event/checkout_base.html:48
 #: pretix/presale/templates/pretixpresale/event/index.html:78
 msgid "Add tickets for a different date"
-msgstr ""
+msgstr "Jegyfoglalás másik dátumra"
 
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:7
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:9
@@ -28263,15 +28265,15 @@ msgstr ""
 
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:12
 msgid "Please review the details below and confirm your order."
-msgstr ""
+msgstr "Ellenőrízd az adatokat és erősítsd meg a foglalást."
 
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:14
 msgid "Please hang tight, we're finalizing your order!"
-msgstr ""
+msgstr "Kérlek várj, véglegesítjük a foglalást."
 
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:22
 msgid "Add or remove tickets"
-msgstr ""
+msgstr "Jegyek hozzáadása vagy eltávolítása"
 
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:44
 msgid "Modify payment"
@@ -28291,7 +28293,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/checkout_questions.html:23
 #: pretix/presale/templates/pretixpresale/event/order_modify.html:33
 msgid "Contact information"
-msgstr ""
+msgstr "Elérhetőségek"
 
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:128
 msgid "Modify contact information"
@@ -28325,7 +28327,7 @@ msgstr ""
 
 #: pretix/presale/templates/pretixpresale/event/checkout_confirm.html:213
 msgid "Submit registration"
-msgstr ""
+msgstr "Véglegesítés"
 
 #: pretix/presale/templates/pretixpresale/event/checkout_customer.html:20
 msgid "Log in with a customer account"
@@ -28438,12 +28440,12 @@ msgstr ""
 
 #: pretix/presale/templates/pretixpresale/event/checkout_questions.html:8
 msgid "Before we continue, we need you to answer some questions."
-msgstr ""
+msgstr "Egy pár kérdésre kell válaszolnod a folytatáshoz."
 
 #: pretix/presale/templates/pretixpresale/event/checkout_questions.html:10
 msgid ""
 "You need to fill all fields that are marked with <span>*</span> to continue."
-msgstr ""
+msgstr "Az összes <span>*</span>-al jelölt mezőt ki kell töltened a folytatáshoz."
 
 #: pretix/presale/templates/pretixpresale/event/checkout_questions.html:51
 msgid "Auto-fill with address"
@@ -28823,7 +28825,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:288
 #, python-format
 msgid "Remove %(item)s from your cart"
-msgstr ""
+msgstr "Termék eltávolítása a kosárból: %(item)s"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:291
 #, python-format
@@ -28849,12 +28851,12 @@ msgstr ""
 msgid ""
 "Once the items are in your cart, you will have %(time)s minutes to complete "
 "your purchase."
-msgstr ""
+msgstr "Amikor a jegyek a kosárba kerülnek, %(time)s perced lesz befejezni a foglalást."
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:321
 #, python-format
 msgid "Add one more %(item)s to your cart"
-msgstr ""
+msgstr "Még egy termék hozzáadása a kosárhoz: %(item)s"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:323
 #, python-format
@@ -28875,8 +28877,8 @@ msgstr "Megjegyzés:"
 #, python-format
 msgid "One product"
 msgid_plural "%(num)s products"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 termék"
+msgstr[1] "%(num)s termék"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:465
 #, python-format
@@ -28887,7 +28889,7 @@ msgstr ""
 #, fuzzy, python-format
 #| msgid "The items in your cart are no longer reserved for you."
 msgid "The items in your cart are reserved for you for %(minutes)s minutes."
-msgstr "A kosárba helyezett termékek tovább nincsenek tovább foglalva."
+msgstr "A kosárban levő termékek %(minutes)s percig vannak még foglalva."
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:486
 #, fuzzy
@@ -28895,7 +28897,9 @@ msgstr "A kosárba helyezett termékek tovább nincsenek tovább foglalva."
 msgid ""
 "The items in your cart are no longer reserved for you. You can still "
 "complete your order as long as they’re available."
-msgstr "A kosárba helyezett termékek tovább nincsenek tovább foglalva."
+msgstr ""
+"A kosárba helyezett termékek nincsenek tovább foglalva. Még megpróbálhatod"
+"a foglalást, ha még van szabad jegy."
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart.html:490
 msgid "Overview of your ordered products."
@@ -28913,7 +28917,7 @@ msgstr ""
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart_box.html:40
 msgid "Empty cart"
-msgstr ""
+msgstr "Kosár törlése"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_cart_box.html:45
 #: pretix/presale/templates/pretixpresale/event/index.html:236
@@ -29161,7 +29165,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/fragment_order_status.html:23
 msgctxt "order state"
 msgid "Confirmed"
-msgstr ""
+msgstr "Megerősítve"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_order_status.html:14
 msgid "Payment pending"
@@ -29207,7 +29211,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/fragment_quota_left.html:4
 #, python-format
 msgid "%(num)s currently available"
-msgstr ""
+msgstr "%(num) szabad jegy van"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar.html:5
 #: pretix/presale/templates/pretixpresale/event/fragment_subevent_calendar_week.html:5
@@ -29285,7 +29289,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/organizers/index.html:114
 #: pretix/presale/views/widget.py:394 pretix/presale/views/widget.py:417
 msgid "Book now"
-msgstr ""
+msgstr "Foglalás"
 
 #: pretix/presale/templates/pretixpresale/event/fragment_subevent_list.html:42
 #: pretix/presale/templates/pretixpresale/fragment_calendar.html:85
@@ -29335,11 +29339,11 @@ msgstr ""
 
 #: pretix/presale/templates/pretixpresale/event/index.html:82
 msgid "View other date"
-msgstr ""
+msgstr "Másik dátumok megtekintése"
 
 #: pretix/presale/templates/pretixpresale/event/index.html:87
 msgid "Choose date to book a ticket"
-msgstr ""
+msgstr "Válassz dátumot a foglalásh"
 
 #: pretix/presale/templates/pretixpresale/event/index.html:92
 msgctxt "subevent"
@@ -29363,7 +29367,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/seatingplan.html:23
 #: pretix/presale/templates/pretixpresale/event/voucher.html:61
 msgid "We're now trying to reserve this for you!"
-msgstr ""
+msgstr "Foglaljuk a jegyet!"
 
 #: pretix/presale/templates/pretixpresale/event/index.html:192
 msgid ""
@@ -29385,11 +29389,11 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/index.html:222
 #: pretix/presale/templates/pretixpresale/event/voucher.html:442
 msgid "Add to cart"
-msgstr ""
+msgstr "Kosárba"
 
 #: pretix/presale/templates/pretixpresale/event/index.html:243
 msgid "If you already ordered a ticket"
-msgstr ""
+msgstr "Ha már foglaltál jegyet"
 
 #: pretix/presale/templates/pretixpresale/event/index.html:247
 msgid ""
@@ -29398,10 +29402,13 @@ msgid ""
 "cannot find the link, click on the following button to request the link to "
 "your order to be sent to you again."
 msgstr ""
+"Ha meg szeretnéd nézn vagy változtatnu a foglalásod részleteit, kattints"
+"a tőlünk kapott emailben található linkre. Ha nem találod a linket, kattints"
+"erre a gombra hogy elküldjük újra ez emailt."
 
 #: pretix/presale/templates/pretixpresale/event/index.html:256
 msgid "Resend order link"
-msgstr ""
+msgstr "Foglalás link újraküldése"
 
 #: pretix/presale/templates/pretixpresale/event/offline.html:4
 #: pretix/presale/templates/pretixpresale/event/offline.html:8
@@ -29427,12 +29434,12 @@ msgstr "Menj vissza és próbáld újra."
 #: pretix/presale/templates/pretixpresale/event/order.html:12
 #: pretix/presale/templates/pretixpresale/event/order.html:29
 msgid "Thank you!"
-msgstr ""
+msgstr "Köszönjük!"
 
 #: pretix/presale/templates/pretixpresale/event/order.html:14
 #: pretix/presale/templates/pretixpresale/event/order.html:32
 msgid "Your order has been placed successfully. See below for details."
-msgstr ""
+msgstr "Sikeres a foglalás."
 
 #: pretix/presale/templates/pretixpresale/event/order.html:16
 #: pretix/presale/templates/pretixpresale/event/order.html:48
@@ -29465,7 +29472,9 @@ msgid ""
 "Please bookmark or save the link to this exact page if you want to access "
 "your order later. We also sent you an email containing the link to the "
 "address you specified."
-msgstr ""
+msgstr
+"Kérlek mentsd el ennek az oldalnak a címét, hogy késöbb is megtaláld."
+"A megadott e-mail címre is elküldtük."
 
 #: pretix/presale/templates/pretixpresale/event/order.html:58
 msgid ""
@@ -29540,7 +29549,7 @@ msgstr "Kifizetett megrendelések"
 #: pretix/presale/templates/pretixpresale/event/order.html:199
 #: pretix/presale/templates/pretixpresale/event/order.html:290
 msgid "Change details"
-msgstr ""
+msgstr "Adatok módosítása"
 
 #: pretix/presale/templates/pretixpresale/event/order.html:262
 msgid ""
@@ -29555,7 +29564,7 @@ msgstr ""
 
 #: pretix/presale/templates/pretixpresale/event/order.html:286
 msgid "Your information"
-msgstr ""
+msgstr "Személyes adatok"
 
 #: pretix/presale/templates/pretixpresale/event/order.html:289
 msgid "Change your information"
@@ -29582,7 +29591,7 @@ msgstr "Kifizetett megrendelések"
 #| msgid "Paid orders"
 msgctxt "action"
 msgid "Cancel your order"
-msgstr "Kifizetett megrendelések"
+msgstr "Foglalás lemondása"
 
 #: pretix/presale/templates/pretixpresale/event/order.html:361
 msgid ""
@@ -29631,7 +29640,7 @@ msgstr ""
 #: pretix/presale/templates/pretixpresale/event/order.html:465
 #: pretix/presale/templates/pretixpresale/event/order.html:470
 msgid "This will invalidate all tickets in this order."
-msgstr ""
+msgstr "Ez érvényteleníteni fogja az összes foglalt jegyet."
 
 #: pretix/presale/templates/pretixpresale/event/order.html:401
 msgid ""
@@ -29678,7 +29687,7 @@ msgstr ""
 
 #: pretix/presale/templates/pretixpresale/event/order.html:467
 msgid "You can cancel this order using the following button."
-msgstr ""
+msgstr "Lemondhatod a foglalást a következő gombbal."
 
 #: pretix/presale/templates/pretixpresale/event/order_cancel.html:11
 #, python-format
